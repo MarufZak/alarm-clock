@@ -79,4 +79,5 @@ function setAlarm () {
     setAlarmBtn.innerText = 'Clear Alarm';
     alarmTime = time;
 }
+setAlarmBtn.click();
 setAlarmBtn.addEventListener('click',setAlarm)
